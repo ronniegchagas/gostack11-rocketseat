@@ -5,8 +5,8 @@
 </h2>
 
 <p align="center">
-  Repositório com aulas do GoStack 11<br/><br/>
-  <sub><sup>* O repositório foi iniciado já com aulas concluidas pois anteriormente eu estava armazenando as aulas em repositórios separados *</sup></sub>
+  Repositório com aulas do GoStack 11<br/>
+  <sub>* O repositório foi iniciado já com aulas concluidas pois anteriormente eu estava armazenando as aulas em repositórios separados *</sub>
 </p>
 
 ## Índice das aulas
