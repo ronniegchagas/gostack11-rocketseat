@@ -7,7 +7,7 @@ Iniciando front-end web
 - :heavy_check_mark: Configurando Estrutura
 - [Figma GoBarber Web](https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber?node-id=34%3A1180)
 - :heavy_check_mark: Estilos globais
-- Página de login
+- :heavy_check_mark: Página de login
 - Isolando componentes
 - Página de cadastro
 - Utilizando Unform
