@@ -6,7 +6,7 @@ Iniciando front-end web
 - ### 1 - ESTRUTURA DAS PÁGINAS
 - :heavy_check_mark: Configurando Estrutura
 - [Figma GoBarber Web](https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber?node-id=34%3A1180)
-- Estilos globais
+- :heavy_check_mark: Estilos globais
 - Página de login
 - Isolando componentes
 - Página de cadastro
