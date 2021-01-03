@@ -1,6 +1,8 @@
 # Nível 3 - Aula 8
 Iniciando front-end web
 
+## Índice das aulas
+
 - ### 1 - ESTRUTURA DAS PÁGINAS
 - :heavy_check_mark: Configurando Estrutura
 - [Figma GoBarber Web](https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber?node-id=34%3A1180)
@@ -14,8 +16,6 @@ Iniciando front-end web
 - Exibindo erros no Input
 - Criando tooltip de erros
 - Validação de login
-
-
 - ### 2 - AUTENTICAÇÃO
 - Habilitando CORS na API
 - API de Contexto
@@ -24,15 +24,11 @@ Iniciando front-end web
 - Mantendo usuário no storage
 - Criando hook useAuth
 - Logout da aplicação
-
-
 - ### 3 - MENSAGEM DE TOAST
 - Estrutura de Toasts
 - Criando hook de toast
 - Adicionando e removendo Toasts
 - Animando Toasts
-
-
 - ### 4 - ROTAS DA APLICAÇÃO
 - Configurando Rotas
 - Rotas autenticadas
