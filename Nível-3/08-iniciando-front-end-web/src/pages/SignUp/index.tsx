@@ -31,11 +31,11 @@ const SignUp: React.FC = () => {
         email: Yup.string()
           .email('Digite um e-mail válido')
           .required('E-mail obrigatório'),
-        password: Yup.string().min(6, 'No mínimo 6 dígitos'),
+        password: Yup.string().min(6, 'No mínimo 6 dígitos')
       });
 
       await schema.validate(data, {
-        abortEarly: false,
+        abortEarly: false
       });
     } catch (err) {
       if (err instanceof Yup.ValidationError) {
