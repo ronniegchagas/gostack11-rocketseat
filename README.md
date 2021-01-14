@@ -21,7 +21,7 @@
 - [06 - Iniciando back-end do app](https://github.com/ronniegchagas/gostack11-rocketseat/tree/main/N%C3%ADvel-2/06-iniciando-backend) 🚀 Done :heavy_check_mark:
 - ### NÍVEL 3
 - [07 - Primeiro projeto com React](https://github.com/ronniegchagas/gostack11-rocketseat/tree/main/N%C3%ADvel-3/07-primeiro-projeto-react) 🚀 Done :heavy_check_mark:
-- [08 - Iniciando front-end web](https://github.com/ronniegchagas/gostack11-rocketseat/tree/main/N%C3%ADvel-3/08-iniciando-front-end-web) 🏃‍♂️💨 In progress.. 💻
+- [08 - Iniciando front-end web](https://github.com/ronniegchagas/gostack11-rocketseat/tree/main/N%C3%ADvel-3/08-iniciando-front-end-web) 🏃‍♂️💨 Working in progress.. 💻
 - [09 - Iniciando aplicativo mobile]() :construction: In progress.. :construction:
 - ### NÍVEL 4
 - [10 - Arquitetura e testes no Node.js]() :construction: In progress.. :construction:
