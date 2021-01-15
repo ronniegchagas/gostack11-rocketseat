@@ -17,8 +17,8 @@
 - [03 - Mobile com React Native]() :construction: In progress.. :construction:
 - [04 - TypeScript](https://github.com/ronniegchagas/gostack11-rocketseat/tree/main/N%C3%ADvel-1/04-typescriptrocketseat) 🚀 Done :heavy_check_mark:
 - ### NÍVEL 2
-- [05 - Primeiro projeto com Node.js](https://github.com/ronniegchagas/gostack11-rocketseat/tree/main/N%C3%ADvel-2/05-projeto-node) 🚀 Done :heavy_check_mark:
-- [06 - Iniciando back-end do app](https://github.com/ronniegchagas/gostack11-rocketseat/tree/main/N%C3%ADvel-2/06-iniciando-backend) 🚀 Done :heavy_check_mark:
+- [05 - Primeiro projeto com Node.js](https://github.com/ronniegchagas/gostack11-rocketseat/tree/main/N%C3%ADvel-2/05-iniciando-backend) 🚀 Done :heavy_check_mark:
+- [06 - Iniciando back-end do app](https://github.com/ronniegchagas/gostack11-rocketseat/tree/main/N%C3%ADvel-2/06-projeto-node) 🚀 Done :heavy_check_mark:
 - ### NÍVEL 3
 - [07 - Primeiro projeto com React](https://github.com/ronniegchagas/gostack11-rocketseat/tree/main/N%C3%ADvel-3/07-primeiro-projeto-react) 🚀 Done :heavy_check_mark:
 - [08 - Iniciando front-end web](https://github.com/ronniegchagas/gostack11-rocketseat/tree/main/N%C3%ADvel-3/08-iniciando-front-end-web) 🚀 Done :heavy_check_mark:
