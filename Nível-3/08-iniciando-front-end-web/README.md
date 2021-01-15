@@ -9,27 +9,27 @@ Iniciando front-end web
 - :heavy_check_mark: Estilos globais
 - :heavy_check_mark: Página de login
 - :heavy_check_mark: Isolando componentes
-- Página de cadastro
-- Utilizando Unform
-- Usabilidade do input
-- Validando cadastro
-- Exibindo erros no Input
-- Criando tooltip de erros
-- Validação de login
+- :heavy_check_mark: Página de cadastro
+- :heavy_check_mark: Utilizando Unform
+- :heavy_check_mark: Usabilidade do input
+- :heavy_check_mark: Validando cadastro
+- :heavy_check_mark: Exibindo erros no Input
+- :heavy_check_mark: Criando tooltip de erros
+- :heavy_check_mark: Validação de login
 - ### 2 - AUTENTICAÇÃO
-- Habilitando CORS na API
-- API de Contexto
+- :heavy_check_mark: Habilitando CORS na API
+- :heavy_check_mark: API de Contexto
 - [Guia de Hooks e Context API](https://www.notion.so/React-Hooks-e-Context-API-c2effc37567442adbfa36bbc4cd94d9c)
-- Login pelo Contexto
-- Mantendo usuário no storage
-- Criando hook useAuth
-- Logout da aplicação
+- :heavy_check_mark: Login pelo Contexto
+- :heavy_check_mark: Mantendo usuário no storage
+- :heavy_check_mark: Criando hook useAuth
+- :heavy_check_mark: Logout da aplicação
 - ### 3 - MENSAGEM DE TOAST
-- Estrutura de Toasts
-- Criando hook de toast
-- Adicionando e removendo Toasts
-- Animando Toasts
+- :heavy_check_mark: Estrutura de Toasts
+- :heavy_check_mark: Criando hook de toast
+- :heavy_check_mark: Adicionando e removendo Toasts
+- :heavy_check_mark: Animando Toasts
 - ### 4 - ROTAS DA APLICAÇÃO
-- Configurando Rotas
-- Rotas autenticadas
-- Finalizando App
+- :heavy_check_mark: Configurando Rotas
+- :heavy_check_mark: Rotas autenticadas
+- :heavy_check_mark: Finalizando App
