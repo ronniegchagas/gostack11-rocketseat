@@ -1,9 +1,9 @@
 import { Request, Response, Router } from 'express';
 import multer from 'multer';
+import { container } from 'tsyringe';
 
 import uploadConfig from '@config/upload';
 
-import UsersRepository from '@modules/users/infra/typeorm/repositories/UserRepository';
 import CreateUserService from '@modules/users/services/CreateUserService';
 import UpdateUserAvatarService from '@modules/users/services/UpdateUserAvatarService';
 import ensureAuthenticated from '@modules/users/infra/http/middlewares/ensureAuthenticated';
@@ -20,8 +20,7 @@ interface IUserView {
 usersRouter.post('/', async (request: Request, response: Response) => {
   const { name, email, password } = request.body;
 
-  const usersRepository = new UsersRepository();
-  const createUser = new CreateUserService(usersRepository);
+  const createUser = container.resolve(CreateUserService);
 
   // Utiliza uma nova interface para poder deletar a senha
   const user: IUserView = await createUser.execute({
@@ -40,10 +39,7 @@ usersRouter.patch(
   ensureAuthenticated,
   upload.single('avatar'),
   async (request, response) => {
-    const usersRepository = new UsersRepository();
-    const updateUserAvatarService = new UpdateUserAvatarService(
-      usersRepository,
-    );
+    const updateUserAvatarService = container.resolve(UpdateUserAvatarService);
 
     const user: IUserView = await updateUserAvatarService.execute({
       // eslint-disable-next-line camelcase

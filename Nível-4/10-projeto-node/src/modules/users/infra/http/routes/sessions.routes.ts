@@ -1,7 +1,7 @@
 import { Request, Response, Router } from 'express';
+import { container } from 'tsyringe';
 
-import UsersRepository from '@modules/users/infra/typeorm/repositories/UserRepository';
-import AuthenticateUserService from '@modules/users/services/authenticateUserService';
+import AuthenticateUserService from '@modules/users/services/AuthenticateUserService';
 
 const sessionsRouter = Router();
 
@@ -22,8 +22,7 @@ interface IUserMapView {
 sessionsRouter.post('/', async (request: Request, response: Response) => {
   const { email, password } = request.body;
 
-  const usersRepository = new UsersRepository();
-  const authenticateUser = new AuthenticateUserService(usersRepository);
+  const authenticateUser = container.resolve(AuthenticateUserService);
 
   // Utiliza uma nova interface para poder deletar a senha
   const { user, token }: IUserMapView = await authenticateUser.execute({
