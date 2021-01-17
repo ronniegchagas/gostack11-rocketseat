@@ -36,6 +36,7 @@
         ]
       }
     ],
+    "no-useless-constructor": "off",
     "@typescript-eslint/naming-convention": [
       "error",
       {
