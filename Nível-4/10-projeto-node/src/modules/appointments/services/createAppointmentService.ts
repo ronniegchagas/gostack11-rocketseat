@@ -11,7 +11,7 @@ interface IRequest {
 }
 
 class CreateAppointmentService {
-  constructor(private appointmentsRepository: IAppointmentsRepository) { }
+  constructor(private appointmentsRepository: IAppointmentsRepository) {}
 
   public async execute({ provider_id, date }: IRequest): Promise<Appointment> {
     const appointmentDate = startOfHour(date);
