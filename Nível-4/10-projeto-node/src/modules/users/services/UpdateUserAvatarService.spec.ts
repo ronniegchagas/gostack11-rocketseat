@@ -44,7 +44,7 @@ describe('UpdateUserAvatar', () => {
 
     const imageUpload = 'avatar.jpg';
 
-    await expect(
+    expect(
       updateUserAvatar.execute({
         // eslint-disable-next-line camelcase
         user_id: 'non-existing-user',
