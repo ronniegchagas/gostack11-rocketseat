@@ -1,7 +1,7 @@
 /* eslint-disable camelcase */
 import { v4 as uuidv4 } from 'uuid';
 
-import IUserTokenRepository from '@modules/users/repositories/IUserTokenRepository';
+import IUserTokenRepository from '@modules/users/repositories/IUserTokensRepository';
 
 import UserToken from '@modules/users/infra/typeorm/entities/UserToken';
 
