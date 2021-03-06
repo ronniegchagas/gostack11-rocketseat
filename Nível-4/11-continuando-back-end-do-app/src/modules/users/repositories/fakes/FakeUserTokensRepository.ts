@@ -1,11 +1,11 @@
 /* eslint-disable camelcase */
 import { v4 as uuidv4 } from 'uuid';
 
-import IUserTokenRepository from '@modules/users/repositories/IUserTokensRepository';
+import IUserTokensRepository from '@modules/users/repositories/IUserTokensRepository';
 
 import UserToken from '@modules/users/infra/typeorm/entities/UserToken';
 
-class FakeUserTokensRepository implements IUserTokenRepository {
+class FakeUserTokensRepository implements IUserTokensRepository {
   private usersTokens: UserToken[] = [];
 
   public async generate(user_id: string): Promise<UserToken> {
