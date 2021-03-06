@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import AppError from '@shared/errors/AppError';
 
 import FakeHashProvider from '../providers/HashProvider/fakes/FakeHashProvider';
@@ -28,7 +29,6 @@ describe('UpdateProfile', () => {
     });
 
     const updateUser = await updateProfileService.execute({
-      // eslint-disable-next-line camelcase
       user_id: user.id,
       name: 'John Trê',
       email: 'johntre@exemple.com',
@@ -36,6 +36,17 @@ describe('UpdateProfile', () => {
 
     expect(updateUser.name).toBe('John Trê');
     expect(updateUser.email).toBe('johntre@exemple.com');
+  });
+
+  // Não deve ser capaz de atualizar o perfil de um usuário inexistente
+  it('should not be able to update the profile from non-existing user', async () => {
+    await expect(
+      updateProfileService.execute({
+        user_id: 'non-existing-user-id',
+        name: 'Test',
+        email: 'teste@exemple.com',
+      }),
+    ).rejects.toBeInstanceOf(AppError);
   });
 
   // Não deve ser capaz de mudar para outro e-mail existente
@@ -54,7 +65,6 @@ describe('UpdateProfile', () => {
 
     await expect(
       updateProfileService.execute({
-        // eslint-disable-next-line camelcase
         user_id: user.id,
         name: 'John Doe',
         email: 'johndoe@exemple.com',
@@ -71,11 +81,9 @@ describe('UpdateProfile', () => {
     });
 
     const updatedUser = await updateProfileService.execute({
-      // eslint-disable-next-line camelcase
       user_id: user.id,
       name: 'John Trê',
       email: 'johntre@exemple.com',
-      // eslint-disable-next-line camelcase
       old_password: '123456',
       password: '123123',
     });
@@ -93,7 +101,6 @@ describe('UpdateProfile', () => {
 
     await expect(
       updateProfileService.execute({
-        // eslint-disable-next-line camelcase
         user_id: user.id,
         name: 'John Trê',
         email: 'johntre@exemple.com',
@@ -112,11 +119,9 @@ describe('UpdateProfile', () => {
 
     await expect(
       updateProfileService.execute({
-        // eslint-disable-next-line camelcase
         user_id: user.id,
         name: 'John Trê',
         email: 'johntre@exemple.com',
-        // eslint-disable-next-line camelcase
         old_password: 'wrong-old-password',
         password: '123123',
       }),
