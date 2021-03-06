@@ -4,4 +4,5 @@ package-lock.json
 dist/
 tmp/*
 !tmp/.gitkeep
-covarage/*
+covarage/
+coverage/
