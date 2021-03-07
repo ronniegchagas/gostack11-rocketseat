@@ -29,7 +29,6 @@ describe('UpdateUserAvatar', () => {
     const imageUpload = 'avatar.jpg';
 
     await updateUserAvatar.execute({
-      // eslint-disable-next-line camelcase
       user_id: user.id,
       avatarFileName: imageUpload,
     });
@@ -43,7 +42,6 @@ describe('UpdateUserAvatar', () => {
 
     await expect(
       updateUserAvatar.execute({
-        // eslint-disable-next-line camelcase
         user_id: 'non-existing-user',
         avatarFileName: imageUpload,
       }),
@@ -63,7 +61,6 @@ describe('UpdateUserAvatar', () => {
     const fileUpload = 'avatar1.jpg';
 
     await updateUserAvatar.execute({
-      // eslint-disable-next-line camelcase
       user_id: user.id,
       avatarFileName: fileUpload,
     });
@@ -71,7 +68,6 @@ describe('UpdateUserAvatar', () => {
     const newFileUpload = 'avatar2.jpg';
 
     await updateUserAvatar.execute({
-      // eslint-disable-next-line camelcase
       user_id: user.id,
       avatarFileName: newFileUpload,
     });

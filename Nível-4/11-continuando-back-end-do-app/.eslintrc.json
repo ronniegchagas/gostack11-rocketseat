@@ -34,7 +34,8 @@
           "updated_at",
           "provider_id",
           "except_user_id",
-          "user_id"
+          "user_id",
+          "old_password"
         ]
       }
     ],

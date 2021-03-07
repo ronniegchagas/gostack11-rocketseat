@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 import AppError from '@shared/errors/AppError';
 
 import FakeUsersRepository from '../repositories/fakes/FakeUsersRepository';

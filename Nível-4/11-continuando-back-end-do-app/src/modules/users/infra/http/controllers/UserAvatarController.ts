@@ -14,7 +14,6 @@ export default class UserAvatarController {
     const updateUserAvatarService = container.resolve(UpdateUserAvatarService);
 
     const user: IUserView = await updateUserAvatarService.execute({
-      // eslint-disable-next-line camelcase
       user_id: request.user.id,
       avatarFileName: request.file.filename,
     });

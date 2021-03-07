@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 import { injectable, inject } from 'tsyringe';
 
 import IUsersRepository from '@modules/users/repositories/IUsersRepository';

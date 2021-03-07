@@ -7,7 +7,6 @@ import IStorageProvider from '@shared/container/providers/StorageProvider/models
 import User from '@modules/users/infra/typeorm/entities/User';
 
 interface IRequest {
-  // eslint-disable-next-line camelcase
   user_id: string;
   avatarFileName: string;
 }
@@ -22,7 +21,6 @@ class UpdateUserAvatarService {
     private storageProvider: IStorageProvider,
   ) {}
 
-  // eslint-disable-next-line camelcase
   public async execute({ user_id, avatarFileName }: IRequest): Promise<User> {
     const user = await this.usersRepository.findById(user_id);
 

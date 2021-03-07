@@ -19,10 +19,8 @@ class UserTokensRepository implements IUserTokensRepository {
     return userToken;
   }
 
-  // eslint-disable-next-line camelcase
   public async generate(user_id: string): Promise<UserToken> {
     const userToken = this.ormRepository.create({
-      // eslint-disable-next-line camelcase
       user_id,
     });
 

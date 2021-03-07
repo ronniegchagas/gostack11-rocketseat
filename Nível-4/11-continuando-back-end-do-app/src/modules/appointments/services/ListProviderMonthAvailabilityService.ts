@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 import { injectable, inject } from 'tsyringe';
 
 import IAppointmentsRepository from '../repositories/IAppointmentsRepository';
