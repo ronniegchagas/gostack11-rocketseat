@@ -12,8 +12,8 @@ describe('ListProviders', () => {
     listProviders = new ListProvidersService(fakeUsersRepository);
   });
 
-  // Não deve ser capaz de mostrar o perfil
-  it('should be able to list the providers', async () => {
+  // Deve ser capaz de mostrar todos os provedores exceto o logado
+  it('should be able show all providers except the one logged in', async () => {
     const user1 = await fakeUsersRepository.create({
       name: 'John Doe',
       email: 'johndoe@example.com',
