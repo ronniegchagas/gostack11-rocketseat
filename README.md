@@ -25,8 +25,8 @@
 - [09 - Iniciando aplicativo mobile]() :construction: In progress.. :construction:
 - ### NÍVEL 4
 - [10 - Arquitetura e testes no Node.js](https://github.com/ronniegchagas/gostack11-rocketseat/tree/main/N%C3%ADvel-4/10-projeto-node) 🚀 Done :heavy_check_mark:
-- [11 - Continuando back-end do app]() 🏃‍♂️💨 Working in progress.. 💻
-- [12 - Finalizando back-end do app]() :construction: In progress.. :construction:
+- [11 - Continuando back-end do app](https://github.com/ronniegchagas/gostack11-rocketseat/tree/main/N%C3%ADvel-4/11-continuando-back-end-do-app) 🚀 Done :heavy_check_mark:
+- [12 - Finalizando back-end do app](https://github.com/ronniegchagas/gostack11-rocketseat/tree/main/N%C3%ADvel-4/12-finalizando-back-end-do-app) 🏃‍♂️💨 Working in progress.. 💻
 - ### NÍVEL 5
 - [13 - Finalizando front-end do app]() :construction: In progress.. :construction:
 - [14 - Finalizando front-end mobile do app]() :construction: In progress.. :construction:
@@ -35,7 +35,6 @@
 - [16 - Deploy de aplicações Node.js]() :construction: In progress.. :construction:
 - [17 - Deploy de aplicações ReactJS]() :construction: In progress.. :construction:
 - [18 - Publicação de apps com React Native]() :construction: In progress.. :construction:
-
 
 ## :memo: Licença
 
